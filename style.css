@@ -8,40 +8,16 @@
   padding: 0;
   border: 0;
 }
-body {
-  width: 70rem;
-  /* height: 20rem; */
-  /* background: blue; */
-  display: flex;
-  /* flex-direction: row; */
-  justify-content: center;
-
-  /* flex-flow: row nowrap; */
-  align-items: center;
-  min-height: 100vh;
-  margin: auto;
-
-  /* position: relative; */
-}
 .main {
-  /* border: 5px solid rsed; */
-  /* position: absolute;
-  top: 18%;
-  left: 3%; */
   /* background: green; */
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
   align-content: center;
+  align-items: center;
+  min-height: 100vh;
   font-size: 15px;
-  /* width: 80rem; */
-  /* height: 25rem; */
-  /* margin: 8rem 3rem; */
-  /* margin: auto; */
-  /* margin-top: 5rem; */
-  border-radius: 2%;
-  /* height: auto; */
-  /* transform: translate(-50%, -50%); */
+  /* border-radius: 2%; */
   flex-wrap: nowrap;
 }
 /* svg {
@@ -65,8 +41,8 @@ p {
 }
 .col {
   /* position: fixed; */
-  width: 12rem;
-  height: 22rem;
+  max-width: 10rem;
+  max-height: 22rem;
   padding: 2.5rem;
   /* flex-direction: row; */
 }
@@ -107,16 +83,19 @@ p {
   color: hsl(0, 0%, 95%);
   background: hsl(31, 77%, 52%);
   border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 .btn-2:hover {
   color: hsl(0, 0%, 95%);
   background: hsl(184, 100%, 22%);
   border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 .btn-3:hover {
   color: hsl(0, 0%, 95%);
   background: hsl(179, 100%, 13%);
   border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 
 .parag {
@@ -125,7 +104,7 @@ p {
   height: 10rem;
 }
 /* Mobile */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 733px) {
   .main {
     display: flex;
     flex-direction: column;
